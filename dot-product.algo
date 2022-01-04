@@ -12,9 +12,9 @@ BEGIN
         END_FOR
     END_FOR
     IF (result === 0) THEN
-        return('the two arrays are orthagonal, and the dot product is : '+ result)
+        return('the two arrays are orthogonal, and the dot product is : '+ result)
     ELSE
-        return('the two arrays are not orthagonal, and the dot product is : '+ result)
+        return('the two arrays are not orthogonal, and the dot product is : '+ result)
     END_IF
     RETURN result ;
 END

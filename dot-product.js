@@ -10,9 +10,9 @@ const dot_product = (arr1, arr2) => {
     }
   }
   if (result === 0) {
-    return "Othagonal";
+    return "Orthogonal";
   } else {
-    return `Not Othagonal, product is ${result}`;
+    return `Not Orthogonal, product is ${result}`;
   }
 };
 
